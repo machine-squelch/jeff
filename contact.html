@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aquivida Pool Care</title>
+    <meta name="description" content="Contact Aquivida Pool Care for professional pool services. Call 916-849-0162 or email jeff@aquividapoolcare.com. Serving Rocklin, Roseville, and surrounding areas.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Aquivida Pool Care Logo" class="logo">
+                <span class="logo-text">Aquivida Pool Care</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link cta-button">Get Free Quote</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch for your free pool assessment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get Your Free Pool Assessment</h2>
+                    <p>Ready to transform your pool? Contact us today for a free, no-obligation assessment. We'll evaluate your pool's needs and provide a detailed quote.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:916-849-0162">916-849-0162</a></p>
+                                <span>Available 24/7 for emergencies</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:jeff@aquividapoolcare.com">jeff@aquividapoolcare.com</a></p>
+                                <span>We respond within 2 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Service Area</h3>
+                                <p>Rocklin, Roseville, Lincoln, Citrus Heights, Orangevale, Antelope, Granite Bay, Placer County, Sacramento County</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p>Saturday: 9:00 AM - 4:00 PM</p>
+                                <p>Sunday: Emergency Service Only</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Request Your Free Quote</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Property Address</label>
+                            <input type="text" id="address" name="address" placeholder="Street address, city, state, zip">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="maintenance">Pool Maintenance</option>
+                                <option value="cleaning">Pool Cleaning</option>
+                                <option value="repair">Pool Repair</option>
+                                <option value="installation">Pool Installation</option>
+                                <option value="green-recovery">Green Pool Recovery</option>
+                                <option value="heater">Heater Service</option>
+                                <option value="safety">Pool Safety</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="poolType">Pool Type</label>
+                            <select id="poolType" name="poolType">
+                                <option value="">Select pool type</option>
+                                <option value="above-ground">Above Ground</option>
+                                <option value="in-ground-vinyl">In-Ground Vinyl</option>
+                                <option value="in-ground-concrete">In-Ground Concrete</option>
+                                <option value="fiberglass">Fiberglass</option>
+                                <option value="unknown">Not Sure</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your pool needs, any specific issues, or questions you have..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                I'd like to receive pool care tips and special offers via email
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">Get My Free Quote</button>
+                        
+                        <p class="form-note">* Required fields. We'll contact you within 2 hours during business hours.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="service-areas">
+        <div class="container">
+            <div class="section-header">
+                <h2>Areas We Serve</h2>
+                <p>Professional pool services throughout the greater Sacramento area</p>
+            </div>
+            
+            <div class="areas-grid">
+                <div class="area-card">
+                    <h3>Placer County</h3>
+                    <ul>
+                        <li>Rocklin</li>
+                        <li>Roseville</li>
+                        <li>Lincoln</li>
+                        <li>Granite Bay</li>
+                        <li>Antelope</li>
+                    </ul>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Sacramento County</h3>
+                    <ul>
+                        <li>Citrus Heights</li>
+                        <li>Orangevale</li>
+                        <li>Sacramento</li>
+                        <li>Folsom</li>
+                        <li>Elk Grove</li>
+                    </ul>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Surrounding Areas</h3>
+                    <ul>
+                        <li>Folsom</li>
+                        <li>El Dorado Hills</li>
+                        <li>Rancho Cordova</li>
+                        <li>Fair Oaks</li>
+                        <li>Carmichael</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Service -->
+    <section class="emergency-service">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-info">
+                    <h2>24/7 Emergency Pool Service</h2>
+                    <p>Pool emergency? We're here to help! Our emergency service is available 24/7 for urgent pool issues including:</p>
+                    <ul>
+                        <li>Green pool emergencies</li>
+                        <li>Equipment failures</li>
+                        <li>Leak detection</li>
+                        <li>Safety issues</li>
+                    </ul>
+                    <a href="tel:916-849-0162" class="btn btn-primary">Call Emergency Line</a>
+                </div>
+                <div class="emergency-visual">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Aquivida Pool Care Logo" class="logo">
+                        <span class="logo-text">Aquivida Pool Care</span>
+                    </div>
+                    <p>Professional pool care services you can trust. Licensed, insured, and committed to excellence.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Pool Cleaning</a></li>
+                        <li><a href="services.html">Pool Repairs</a></li>
+                        <li><a href="services.html">Pool Installation</a></li>
+                        <li><a href="services.html">Green Pool Recovery</a></li>
+                        <li><a href="services.html">Heater Services</a></li>
+                        <li><a href="services.html">Pool Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> 916-849-0162</p>
+                        <p><i class="fas fa-envelope"></i> jeff@aquividapoolcare.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Rocklin, Roseville, Lincoln, Citrus Heights, Orangevale, Antelope, Granite Bay, Placer County, Sacramento County</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aquivida Pool Care. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
