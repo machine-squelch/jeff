@@ -1,4 +1,4 @@
-# Aquivida Pool Care Website
+# Bist's Aquivida Pool Care Website
 
 A cutting-edge, state-of-the-art pool service website built with modern web technologies. This website features light/dark mode, advanced micro-interactions, smooth animations, and professional styling that follows 2025 best practices.
 
@@ -152,7 +152,7 @@ The contact form is ready to integrate with your preferred form handling service
 
 ## License
 
-This website template is created for Aquivida Pool Care. All images are from Vecteezy and should be used according to their license terms.
+This website template is created for Bist's Aquivida Pool Care. All images are from Vecteezy and should be used according to their license terms.
 
 ## Support
 
@@ -160,4 +160,4 @@ For any questions or customization needs, please contact the development team.
 
 ---
 
-**Built with ❤️ for Aquivida Pool Care**
+**Built with ❤️ for Bist's Aquivida Pool Care**

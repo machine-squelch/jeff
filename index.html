@@ -2,20 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquivida Pool Care - Professional Pool Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#1e40af">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <title>Bist's Aquivida Pool Care - Professional Pool Services</title>
     <meta name="description" content="Professional pool care services including maintenance, cleaning, repair, and installation. Serving your area with expert pool technicians.">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </noscript>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="logo.png" alt="Aquivida Pool Care Logo" class="logo">
-                <span class="logo-text">Aquivida Pool Care</span>
+                <img src="logo.png" alt="Bist's Aquivida Pool Care Logo" class="logo" loading="eager" fetchpriority="high">
+                <span class="logo-text">Bist's Aquivida Pool Care</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -31,7 +42,6 @@
                     <a href="gallery.html" class="nav-link">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a href="pricing.html" class="nav-link">Pricing</a>
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
@@ -49,11 +59,11 @@
     </nav>
 
     <!-- Scrolling Service Areas -->
-    <section class="scrolling-areas">
-        <div class="scrolling-text">
-            <span class="scrolling-content">Serving • Rocklin • Roseville • Lincoln • Citrus Heights • Orangevale • Antelope • Granite Bay • Placer County • Sacramento County</span>
+    <div style="background-color: #1e40af; height: 50px; width: 100%; display: block; position: relative; overflow: hidden; border-bottom: 2px solid rgba(255, 255, 255, 0.3); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); z-index: 999;">
+        <div style="height: 50px; display: flex; align-items: center; white-space: nowrap; width: 200%; animation: scroll-right-to-left 25s linear infinite;">
+            <span style="color: #ffffff; font-size: 16px; font-weight: 700; letter-spacing: 1px; padding: 0 2rem; flex-shrink: 0; width: 50%; text-transform: uppercase; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);">Serving • Rocklin • Roseville • Lincoln • Citrus Heights • Orangevale • Antelope • Granite Bay • Placer County • Sacramento County</span>
         </div>
-    </section>
+    </div>
 
     <!-- Hero Section - High-Converting Landing Page -->
     <section id="home" class="hero">
@@ -106,14 +116,13 @@
                     <div class="trust-indicators">
                         <div class="indicator">
                             <i class="fas fa-check-circle"></i>
-                            <span>Licensed & Insured</span>
+                            <span>Insured</span>
                         </div>
                         <div class="indicator">
                             <i class="fas fa-clock"></i>
                             <span>24/7 Emergency Service</span>
                         </div>
                         <div class="indicator">
-                            <i class="fas fa-award"></i>
                             <span>5-Star Rated</span>
                         </div>
                     </div>
@@ -123,8 +132,13 @@
                         <div class="cert-badge-content">
                             <i class="fas fa-shield-check"></i>
                             <div class="cert-text">
-                                <span class="cert-title">Licensed & Insured</span>
+                                <span class="cert-title">Insured</span>
                                 <span class="cert-subtitle">Pool Service Professional</span>
+                                <div class="contact-info">
+                                    <p class="phone"><i class="fas fa-phone"></i> 916-849-0162</p>
+                                    <p class="email"><i class="fas fa-envelope"></i> jeff@bistsaquividapoolcare.com</p>
+                                    <p class="service-area"><i class="fas fa-map-marker-alt"></i> Rocklin, Roseville, Lincoln, Citrus Heights, Orangevale, Antelope, Granite Bay, Placer County, Sacramento County</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -135,7 +149,7 @@
                 <div class="visual-container">
                     <div class="hero-stats-card">
                         <div class="stats-header">
-                            <h3>Why Choose Aquivida?</h3>
+                            <h3>Why Choose Bist's Aquivida?</h3>
                             <p>Trusted by hundreds of satisfied customers</p>
                         </div>
                         <div class="stats-grid">
@@ -149,9 +163,6 @@
                                 </div>
                             </div>
                             <div class="stat-item">
-                                <div class="stat-icon">
-                                    <i class="fas fa-award"></i>
-                                </div>
                                 <div class="stat-content">
                                     <span class="stat-number">4.9★</span>
                                     <span class="stat-label">Average Rating</span>
@@ -218,7 +229,7 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Why Choose Aquivida Pool Care?</h2>
+                <h2>Why Choose Bist's Aquivida Pool Care?</h2>
                 <p>We don't just clean pools - we transform them into crystal-clear oases that your family will love</p>
             </div>
             <div class="services-grid">
@@ -247,10 +258,6 @@
                             <span>Water testing</span>
                         </div>
                     </div>
-                    <div class="service-price">
-                        <span class="price">Starting at $89/month</span>
-                        <span class="price-note">Save 20% on first month</span>
-                    </div>
                     <a href="#contact" class="service-cta">Get Started</a>
                 </div>
                 <div class="service-card">
@@ -262,21 +269,7 @@
                     <ul class="service-features">
                         <li>Equipment repairs</li>
                         <li>Leak detection</li>
-                        <li>Tile & coping repair</li>
                         <li>Plumbing fixes</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-swimming-pool"></i>
-                    </div>
-                    <h3>Pool Installation</h3>
-                    <p>Complete pool installation services from design to completion. Custom pools built to your specifications and budget.</p>
-                    <ul class="service-features">
-                        <li>Custom design</li>
-                        <li>Permit assistance</li>
-                        <li>Quality materials</li>
-                        <li>Warranty included</li>
                     </ul>
                 </div>
                 <div class="service-card">
@@ -305,19 +298,6 @@
                         <li>Winterization</li>
                     </ul>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Pool Safety</h3>
-                    <p>Safety equipment installation and maintenance. Protect your family with proper pool safety measures and equipment.</p>
-                    <ul class="service-features">
-                        <li>Safety covers</li>
-                        <li>Alarms & sensors</li>
-                        <li>Fencing solutions</li>
-                        <li>Safety inspections</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
@@ -327,9 +307,9 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2>About Aquivida Pool Care</h2>
+                    <h2>About Bist's Aquivida Pool Care</h2>
                     <p class="lead">With years of experience in the pool industry, we've built a reputation for excellence, reliability, and customer satisfaction.</p>
-                    <p>Our team of certified pool technicians is dedicated to providing the highest quality pool care services. We understand that your pool is an investment in your home and lifestyle, and we treat it with the care and attention it deserves.</p>
+                    <p>Our team of pool technicians is dedicated to providing the highest quality pool care services. We understand that your pool is an investment in your home and lifestyle, and we treat it with the care and attention it deserves.</p>
                     <div class="about-stats">
                         <div class="stat">
                             <h3>500+</h3>
@@ -379,7 +359,6 @@
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="aquivida-pool-jeff-3/vecteezysummer-activity-swimming-background-hs0521_generated.jpg" alt="Pool Installation">
                     <div class="gallery-overlay">
                         <h4>New Installation</h4>
                         <p>Custom pool design</p>
@@ -427,7 +406,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p>"Aquivida Pool Care has been maintaining our pool for over 3 years. Their service is exceptional - always on time, professional, and our pool has never looked better!"</p>
+                        <p>"Bist's Aquivida Pool Care has been maintaining our pool for over 3 years. Their service is exceptional - always on time, professional, and our pool has never looked better!"</p>
                     </div>
                     <div class="testimonial-author">
                         <h4>Sarah Johnson</h4>
@@ -443,7 +422,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <p>"When our pool heater broke down, they came out the same day and had it fixed within hours. Excellent emergency service and fair pricing!"</p>
+                        <p>"When our pool heater broke down, they came out the same day and had it fixed within hours. Excellent emergency service!"</p>
                     </div>
                     <div class="testimonial-author">
                         <h4>Mike Rodriguez</h4>
@@ -494,7 +473,7 @@
                         </div>
                         <div class="contact-details">
                             <h4>Email Us</h4>
-                            <p>jeff@aquividapoolcare.com</p>
+                            <p>jeff@bistsaquividapoolcare.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -532,10 +511,8 @@
                                 <option value="">Select Service</option>
                                 <option value="cleaning">Pool Cleaning & Maintenance</option>
                                 <option value="repair">Pool Repairs</option>
-                                <option value="installation">Pool Installation</option>
                                 <option value="green-recovery">Green Pool Recovery</option>
                                 <option value="heater">Heater Services</option>
-                                <option value="safety">Pool Safety</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
@@ -555,10 +532,10 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="logo.png" alt="Aquivida Pool Care Logo" class="logo">
-                        <span class="logo-text">Aquivida Pool Care</span>
+                        <img src="logo.png" alt="Bist's Aquivida Pool Care Logo" class="logo">
+                        <span class="logo-text">Bist's Aquivida Pool Care</span>
                     </div>
-                    <p>Professional pool care services you can trust. Licensed, insured, and committed to excellence.</p>
+                    <p>Professional pool care services you can trust. Insured and committed to excellence.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -571,10 +548,8 @@
                     <ul>
                         <li><a href="#services">Pool Cleaning</a></li>
                         <li><a href="#services">Pool Repairs</a></li>
-                        <li><a href="#services">Pool Installation</a></li>
                         <li><a href="#services">Green Pool Recovery</a></li>
                         <li><a href="#services">Heater Services</a></li>
-                        <li><a href="#services">Pool Safety</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -582,7 +557,6 @@
                     <ul>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="terms.html">Terms of Service</a></li>
@@ -593,13 +567,13 @@
                     <h4>Contact Info</h4>
                     <div class="contact-info">
                         <p><i class="fas fa-phone"></i> 916-849-0162</p>
-                        <p><i class="fas fa-envelope"></i> jeff@aquividapoolcare.com</p>
+                        <p><i class="fas fa-envelope"></i> jeff@bistsaquividapoolcare.com</p>
                         <p><i class="fas fa-map-marker-alt"></i> Rocklin, Roseville, Lincoln, Citrus Heights, Orangevale, Antelope, Granite Bay, Placer County, Sacramento County</p>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Aquivida Pool Care. All rights reserved.</p>
+                <p>&copy; 2024 Bist's Aquivida Pool Care. All rights reserved.</p>
             </div>
         </div>
     </footer>
